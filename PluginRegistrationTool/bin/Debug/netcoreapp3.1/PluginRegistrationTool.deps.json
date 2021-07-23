@@ -1,0 +1,83 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PluginRegistrationTool/1.0.0": {
+        "dependencies": {
+          "Microsoft.CrmSdk.CoreAssemblies": "9.0.2.34",
+          "Microsoft.CrmSdk.CoreTools": "9.1.0.79",
+          "Microsoft.CrmSdk.XrmTooling.CoreAssembly": "9.1.0.79",
+          "Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool": "9.1.0.24"
+        },
+        "runtime": {
+          "PluginRegistrationTool.dll": {}
+        }
+      },
+      "Microsoft.CrmSdk.CoreAssemblies/9.0.2.34": {
+        "runtime": {
+          "lib/net462/Microsoft.Crm.Sdk.Proxy.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.46.3545"
+          },
+          "lib/net462/Microsoft.Xrm.Sdk.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.46.3545"
+          }
+        }
+      },
+      "Microsoft.CrmSdk.CoreTools/9.1.0.79": {},
+      "Microsoft.CrmSdk.XrmTooling.CoreAssembly/9.1.0.79": {
+        "runtime": {
+          "lib/net462/Microsoft.Rest.ClientRuntime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.3.20.0"
+          },
+          "lib/net462/Microsoft.Xrm.Tooling.Connector.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.88"
+          }
+        }
+      },
+      "Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool/9.1.0.24": {}
+    }
+  },
+  "libraries": {
+    "PluginRegistrationTool/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CrmSdk.CoreAssemblies/9.0.2.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tVWvTPiCQc1/giosbEl8eV51f9NatVyix+IugsCiksaG/dQAoxufNj2hWDCzP+Wz3ZWBPIZx5vY4lLvCVWHR+g==",
+      "path": "microsoft.crmsdk.coreassemblies/9.0.2.34",
+      "hashPath": "microsoft.crmsdk.coreassemblies.9.0.2.34.nupkg.sha512"
+    },
+    "Microsoft.CrmSdk.CoreTools/9.1.0.79": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m6/9wZSa7HYwPipod4ZkS87r5UqGZDgkuGHjrJtEvpLWrh8jO1SSq6b1SlJLEaiUE7zWK6AJd99/IH765bTTvA==",
+      "path": "microsoft.crmsdk.coretools/9.1.0.79",
+      "hashPath": "microsoft.crmsdk.coretools.9.1.0.79.nupkg.sha512"
+    },
+    "Microsoft.CrmSdk.XrmTooling.CoreAssembly/9.1.0.79": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E+qkg4B4UD+Or6iP2ySCSYOr/ZPK5OTPiSTVDg3+0vNVTzwtqk39Xuf7nHrjBvMH8Wwvcqsroq9au9OW5iN5VQ==",
+      "path": "microsoft.crmsdk.xrmtooling.coreassembly/9.1.0.79",
+      "hashPath": "microsoft.crmsdk.xrmtooling.coreassembly.9.1.0.79.nupkg.sha512"
+    },
+    "Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool/9.1.0.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yI1jLGzUkCRqX1w/dkw4lyf6zRMAk1BcULz7oDl9G4j9BOE06r7t+LByNQgcgLKB1m6wuNrgyEKbGxite2gXBw==",
+      "path": "microsoft.crmsdk.xrmtooling.pluginregistrationtool/9.1.0.24",
+      "hashPath": "microsoft.crmsdk.xrmtooling.pluginregistrationtool.9.1.0.24.nupkg.sha512"
+    }
+  }
+}

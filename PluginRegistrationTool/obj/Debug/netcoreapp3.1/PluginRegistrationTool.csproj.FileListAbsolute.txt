@@ -1,0 +1,10 @@
+E:\Backup\Visual Studio 2012\Projects\DynamicCRMClassLibrary\PluginRegistrationTool\bin\Debug\netcoreapp3.1\PluginRegistrationTool.deps.json
+E:\Backup\Visual Studio 2012\Projects\DynamicCRMClassLibrary\PluginRegistrationTool\bin\Debug\netcoreapp3.1\PluginRegistrationTool.dll
+E:\Backup\Visual Studio 2012\Projects\DynamicCRMClassLibrary\PluginRegistrationTool\bin\Debug\netcoreapp3.1\PluginRegistrationTool.pdb
+E:\Backup\Visual Studio 2012\Projects\DynamicCRMClassLibrary\PluginRegistrationTool\obj\Debug\netcoreapp3.1\PluginRegistrationTool.csproj.AssemblyReference.cache
+E:\Backup\Visual Studio 2012\Projects\DynamicCRMClassLibrary\PluginRegistrationTool\obj\Debug\netcoreapp3.1\PluginRegistrationTool.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backup\Visual Studio 2012\Projects\DynamicCRMClassLibrary\PluginRegistrationTool\obj\Debug\netcoreapp3.1\PluginRegistrationTool.AssemblyInfoInputs.cache
+E:\Backup\Visual Studio 2012\Projects\DynamicCRMClassLibrary\PluginRegistrationTool\obj\Debug\netcoreapp3.1\PluginRegistrationTool.AssemblyInfo.cs
+E:\Backup\Visual Studio 2012\Projects\DynamicCRMClassLibrary\PluginRegistrationTool\obj\Debug\netcoreapp3.1\PluginRegistrationTool.csproj.CoreCompileInputs.cache
+E:\Backup\Visual Studio 2012\Projects\DynamicCRMClassLibrary\PluginRegistrationTool\obj\Debug\netcoreapp3.1\PluginRegistrationTool.dll
+E:\Backup\Visual Studio 2012\Projects\DynamicCRMClassLibrary\PluginRegistrationTool\obj\Debug\netcoreapp3.1\PluginRegistrationTool.pdb

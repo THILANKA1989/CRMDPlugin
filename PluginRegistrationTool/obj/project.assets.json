@@ -1,0 +1,266 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.CrmSdk.CoreAssemblies/9.0.2.34": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Microsoft.Crm.Sdk.Proxy.dll": {},
+          "lib/net462/Microsoft.Xrm.Sdk.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Crm.Sdk.Proxy.dll": {},
+          "lib/net462/Microsoft.Xrm.Sdk.dll": {}
+        }
+      },
+      "Microsoft.CrmSdk.CoreTools/9.1.0.79": {
+        "type": "package"
+      },
+      "Microsoft.CrmSdk.XrmTooling.CoreAssembly/9.1.0.79": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Microsoft.Rest.ClientRuntime.dll": {},
+          "lib/net462/Microsoft.Xrm.Tooling.Connector.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Rest.ClientRuntime.dll": {},
+          "lib/net462/Microsoft.Xrm.Tooling.Connector.dll": {}
+        }
+      },
+      "Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool/9.1.0.24": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CrmSdk.CoreAssemblies/9.0.2.34": {
+      "sha512": "tVWvTPiCQc1/giosbEl8eV51f9NatVyix+IugsCiksaG/dQAoxufNj2hWDCzP+Wz3ZWBPIZx5vY4lLvCVWHR+g==",
+      "type": "package",
+      "path": "microsoft.crmsdk.coreassemblies/9.0.2.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/LicenseTerms.docx",
+        "lib/net462/Microsoft.Crm.Sdk.Proxy.dll",
+        "lib/net462/Microsoft.Crm.Sdk.Proxy.xml",
+        "lib/net462/Microsoft.Xrm.Sdk.dll",
+        "lib/net462/Microsoft.Xrm.Sdk.xml",
+        "lib/net462/Other Redistributable.txt",
+        "lib/net462/Third Party Notices for Dynamics 365 SDK.docx",
+        "microsoft.crmsdk.coreassemblies.9.0.2.34.nupkg.sha512",
+        "microsoft.crmsdk.coreassemblies.nuspec"
+      ]
+    },
+    "Microsoft.CrmSdk.CoreTools/9.1.0.79": {
+      "sha512": "m6/9wZSa7HYwPipod4ZkS87r5UqGZDgkuGHjrJtEvpLWrh8jO1SSq6b1SlJLEaiUE7zWK6AJd99/IH765bTTvA==",
+      "type": "package",
+      "path": "microsoft.crmsdk.coretools/9.1.0.79",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/bin/coretools/CrmSvcUtil.exe",
+        "content/bin/coretools/CrmSvcUtil.exe.config",
+        "content/bin/coretools/CrmSvcUtil.xml",
+        "content/bin/coretools/LicenseTerms.docx",
+        "content/bin/coretools/Microsoft.ApplicationInsights.dll",
+        "content/bin/coretools/Microsoft.Crm.Sdk.Proxy.dll",
+        "content/bin/coretools/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "content/bin/coretools/Microsoft.PowerPlatform.Tooling.BatchedTelemetry.dll",
+        "content/bin/coretools/Microsoft.Rest.ClientRuntime.dll",
+        "content/bin/coretools/Microsoft.Xrm.Sdk.Deployment.dll",
+        "content/bin/coretools/Microsoft.Xrm.Sdk.dll",
+        "content/bin/coretools/Microsoft.Xrm.Tooling.Connector.dll",
+        "content/bin/coretools/Microsoft.Xrm.Tooling.CrmConnectControl.dll",
+        "content/bin/coretools/Microsoft.Xrm.Tooling.Ui.Styles.dll",
+        "content/bin/coretools/Newtonsoft.Json.dll",
+        "content/bin/coretools/Other Redistributable.txt",
+        "content/bin/coretools/SolutionPackager.exe",
+        "content/bin/coretools/SolutionPackager.exe.config",
+        "content/bin/coretools/SolutionPackagerLib.dll",
+        "content/bin/coretools/System.Diagnostics.DiagnosticSource.dll",
+        "content/bin/coretools/System.ValueTuple.dll",
+        "content/bin/coretools/pacTelemetryUpload.exe",
+        "content/bin/coretools/pacTelemetryUpload.exe.config",
+        "microsoft.crmsdk.coretools.9.1.0.79.nupkg.sha512",
+        "microsoft.crmsdk.coretools.nuspec"
+      ]
+    },
+    "Microsoft.CrmSdk.XrmTooling.CoreAssembly/9.1.0.79": {
+      "sha512": "E+qkg4B4UD+Or6iP2ySCSYOr/ZPK5OTPiSTVDg3+0vNVTzwtqk39Xuf7nHrjBvMH8Wwvcqsroq9au9OW5iN5VQ==",
+      "type": "package",
+      "path": "microsoft.crmsdk.xrmtooling.coreassembly/9.1.0.79",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Microsoft.Rest.ClientRuntime.dll",
+        "lib/net462/Microsoft.Xrm.Tooling.Connector.dll",
+        "lib/net462/Microsoft.Xrm.Tooling.Connector.xml",
+        "lib/net462/Other Redistributable.txt",
+        "lib/net462/Third Party Notices for Dynamics 365 SDK.docx",
+        "microsoft.crmsdk.xrmtooling.coreassembly.9.1.0.79.nupkg.sha512",
+        "microsoft.crmsdk.xrmtooling.coreassembly.nuspec"
+      ]
+    },
+    "Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool/9.1.0.24": {
+      "sha512": "yI1jLGzUkCRqX1w/dkw4lyf6zRMAk1BcULz7oDl9G4j9BOE06r7t+LByNQgcgLKB1m6wuNrgyEKbGxite2gXBw==",
+      "type": "package",
+      "path": "microsoft.crmsdk.xrmtooling.pluginregistrationtool/9.1.0.24",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.crmsdk.xrmtooling.pluginregistrationtool.9.1.0.24.nupkg.sha512",
+        "microsoft.crmsdk.xrmtooling.pluginregistrationtool.nuspec",
+        "tools/AssemblyRegistration.dll",
+        "tools/CrmLibraries.dll",
+        "tools/DebugPlugin.dll",
+        "tools/ImageRegistration.dll",
+        "tools/Microsoft.ApplicationInsights.dll",
+        "tools/Microsoft.Crm.Sdk.Proxy.dll",
+        "tools/Microsoft.Expression.Interactions.dll",
+        "tools/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "tools/Microsoft.PowerApps.AppInsights.BatchedTelemetry.dll",
+        "tools/Microsoft.PowerApps.AppInsights.BatchedTelemetryChannel.dll",
+        "tools/Microsoft.Rest.ClientRuntime.dll",
+        "tools/Microsoft.ServiceBus.dll",
+        "tools/Microsoft.Xrm.Sdk.Deployment.dll",
+        "tools/Microsoft.Xrm.Sdk.Workflow.dll",
+        "tools/Microsoft.Xrm.Sdk.dll",
+        "tools/Microsoft.Xrm.Tooling.Connector.dll",
+        "tools/Microsoft.Xrm.Tooling.CrmConnectControl.dll",
+        "tools/Microsoft.Xrm.Tooling.Ui.Styles.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/Other Redistributable.txt",
+        "tools/PluginCommonControls.dll",
+        "tools/PluginProfiler.Debugger.exe",
+        "tools/PluginProfiler.Debugger.exe.config",
+        "tools/PluginProfiler.Library.dll",
+        "tools/PluginProfiler.Plugins.dll",
+        "tools/PluginProfiler.Solution.zip",
+        "tools/PluginRegistration.exe",
+        "tools/PluginRegistration.exe.config",
+        "tools/ServiceEndpointRegistration.dll",
+        "tools/StepRegistration.dll",
+        "tools/System.Diagnostics.DiagnosticSource.dll",
+        "tools/System.ValueTuple.dll",
+        "tools/System.Windows.Controls.Input.Toolkit.dll",
+        "tools/System.Windows.Interactivity.dll",
+        "tools/Third Party Notices for Dynamics 365 SDK.docx",
+        "tools/VirtualEntityRegistration.dll",
+        "tools/WPFToolkit.dll",
+        "tools/WebHookRegistration.dll",
+        "tools/pacTelemetryUpload.exe"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.CrmSdk.CoreAssemblies >= 9.0.2.34",
+      "Microsoft.CrmSdk.CoreTools >= 9.1.0.79",
+      "Microsoft.CrmSdk.XrmTooling.CoreAssembly >= 9.1.0.79",
+      "Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool >= 9.1.0.24"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DCE User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Backup\\Visual Studio 2012\\Projects\\DynamicCRMClassLibrary\\PluginRegistrationTool\\PluginRegistrationTool.csproj",
+      "projectName": "PluginRegistrationTool",
+      "projectPath": "E:\\Backup\\Visual Studio 2012\\Projects\\DynamicCRMClassLibrary\\PluginRegistrationTool\\PluginRegistrationTool.csproj",
+      "packagesPath": "C:\\Users\\DCE User\\.nuget\\packages\\",
+      "outputPath": "E:\\Backup\\Visual Studio 2012\\Projects\\DynamicCRMClassLibrary\\PluginRegistrationTool\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\DCE User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Microsoft.CrmSdk.CoreAssemblies": {
+            "target": "Package",
+            "version": "[9.0.2.34, )"
+          },
+          "Microsoft.CrmSdk.CoreTools": {
+            "target": "Package",
+            "version": "[9.1.0.79, )"
+          },
+          "Microsoft.CrmSdk.XrmTooling.CoreAssembly": {
+            "target": "Package",
+            "version": "[9.1.0.79, )"
+          },
+          "Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool": {
+            "target": "Package",
+            "version": "[9.1.0.24, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.CrmSdk.CoreAssemblies 9.0.2.34' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.CrmSdk.CoreAssemblies",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.CrmSdk.XrmTooling.CoreAssembly 9.1.0.79' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.CrmSdk.XrmTooling.CoreAssembly",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
